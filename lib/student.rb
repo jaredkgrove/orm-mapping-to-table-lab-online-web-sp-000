@@ -1,4 +1,6 @@
 class Students
 
-def initialize(name, grade, id = nil)
+  def initialize(name, grade, id = nil)
+
+  end
 end
