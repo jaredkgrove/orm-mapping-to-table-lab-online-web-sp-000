@@ -12,6 +12,10 @@ class Students
 
   end
 
+  def self.create(name, grade, id)
+
+  end
+
   def self.create_table(name, grade, id)
 
   end
