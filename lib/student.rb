@@ -9,11 +9,10 @@ class Student
   end
 
   def save
-    puts self.name
-    puts self.grade
+
     sql =  <<-SQL
       INSERT INTO students (name, grade)
-      VALUES ('josh', '11th')
+      VALUES (?, ?)
     SQL
     DB[:conn].execute(sql)#, self.name, self.grade)
   end
