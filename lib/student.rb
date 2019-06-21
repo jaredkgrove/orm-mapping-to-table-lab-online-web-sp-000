@@ -3,9 +3,9 @@ class Student
   attr_reader :id
 
   def initialize(name, grade, id = nil)
-    @name = name
-    @grade = grade
-    @id = id
+    self.name = name
+    self.grade = grade
+    self.id = id
   end
 
   def save
