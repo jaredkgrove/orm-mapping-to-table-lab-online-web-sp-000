@@ -8,6 +8,10 @@ class Students
     @id = id
   end
 
+  def save
+
+  end 
+
   def self.create_table(name, grade, id)
 
   end
