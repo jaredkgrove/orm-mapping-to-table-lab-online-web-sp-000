@@ -28,13 +28,7 @@ class Student
   end
 
   def self.drop_table
-    sql =  <<-SQL
-      DROP TABLE students (
-        id INTEGER PRIMARY KEY,
-        name TEXT,
-        grade INTEGER
-        )
-        SQL
+    sql =  "DROP TABLE students"
     DB[:conn].execute(sql)
   end
 end
