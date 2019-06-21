@@ -10,7 +10,7 @@ class Students
 
   def save
 
-  end 
+  end
 
   def self.create_table(name, grade, id)
 
