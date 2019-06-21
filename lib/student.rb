@@ -13,7 +13,7 @@ class Student
     puts self.grade
     sql =  <<-SQL
       INSERT INTO students (name, grade)
-      VALUES (?, ?)
+      VALUES ('jimmy', '11th')
     SQL
     DB[:conn].execute(sql, self.name, self.grade)
   end
