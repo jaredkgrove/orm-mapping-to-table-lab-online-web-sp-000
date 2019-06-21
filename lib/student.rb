@@ -18,7 +18,7 @@ class Student
   end
 
   def self.create(name:, grade:)
-    song.new(name, grade).tap{|son| son.save}
+    self.new(name, grade).tap{|song| song.save}
   end
 
   def self.create_table
